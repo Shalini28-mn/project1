@@ -1,0 +1,79 @@
+.about_p{
+    color:rgb(182, 39, 7) ;
+    background-color: rgb(230, 65, 65);
+    border: 5px double burlywood;
+    border-top: 30px;
+    margin-left:35px;
+    padding-left: 40px;
+}
+.heading{
+    text-align: center;
+    color: goldenrod;
+    font-size:30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.picture:hover{
+    width: 40px;
+    border-radius: 50px;
+    box-shadow:-7px -48px 87px -24px rgba(0,0,0,0.75);
+}
+.img1:hover{
+    color: darkred;
+    background: blue;
+    border-radius: 50px;
+ box-shadow: -7px -48px 87px -24px rgba(0,0,0,0.75);
+}
+input:focus{
+    background-color: black;
+    color: white;
+}
+input{
+    border-bottom: 1px dotted olive;
+    width: 300px;
+    height: 20px;
+    border-radius: 30px;
+}
+ {
+   marquee position: relative;
+    width: 2em;
+    height: 2em;
+    border: 3px solid #3cefff;
+    overflow: hidden;
+    animation: spin 3s ease infinite;
+  }
+  
+ marquee ::before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: 2em;
+    height: 2em;
+    background-color: hsla(185, 100%, 62%, 0.75);
+    transform-origin: center bottom;
+    transform: scaleY(1);
+    animation: fill 3s linear infinite;
+  }
+  
+  @keyframes spin {
+    50%,
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes fill {
+    25%,
+    50% {
+      transform: scaleY(0);
+    }
+    100% {
+      transform: scaleY(1);
+    }
+  }
+  .foot{
+    text-align: center;
+
+  }
